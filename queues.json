@@ -33,13 +33,6 @@
   "paths": {
     "/queues": {
       "get": {
-        "description": "Returns list of queues"
-      }
-    }
-  },
-  "paths": {
-    "/queues": {
-      "get": {
         "description": "Returns list of queues",
         "operationId": "F__I__X____ME_findQueues",
         "externalDocs": {
@@ -132,6 +125,14 @@
             }
           }
         }
+      }
+    },
+    "/queues/{id}/{job-id}": {
+      "get": {
+        "description": "get job"
+      },
+      "delete": {
+        "description": "pick job"
       }
     }
   },
