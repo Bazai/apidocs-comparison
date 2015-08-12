@@ -135,6 +135,9 @@
     "/queues/{id}/{attr}/{value}/{attr}/{value}/.../{attr}/{value}": {
       "post": {
         "description": "create new job with {attr: value} merged into payload"
+      },
+      "delete": {
+        "description": "search jobs with attr=value"
       }
     },
     "/queues/{id}/{job-id}": {
