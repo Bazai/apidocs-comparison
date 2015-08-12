@@ -34,7 +34,7 @@
     "/queues": {
       "get": {
         "description": "Returns list of queues",
-        "operationId": "F__I__X____ME_findQueues",
+        "operationId": "getQueues",
         "externalDocs": {
           "description": "find more info here",
           "url": "https://aidbox.io"
@@ -125,6 +125,16 @@
             }
           }
         }
+      }
+    },
+    "/queues/{id}/jobs": {
+      "post": {
+        "description": "create new job"
+      }
+    },
+    "/queues/{id}/{attr}/{value}/{attr}/{value}/.../{attr}/{value}": {
+      "post": {
+        "description": "create new job with {attr: value} merged into payload"
       }
     },
     "/queues/{id}/{job-id}": {
