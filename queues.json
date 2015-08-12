@@ -117,7 +117,7 @@
           "200": {
             "description": "pet response",
             "schema": {
-              "$ref": "#/definitions/Pet"
+              "$ref": "#/definitions/Queue"
             }
           },
           "default": {
@@ -153,7 +153,7 @@
           "200": {
             "description": "pet response",
             "schema": {
-              "$ref": "#/definitions/Pet"
+              "$ref": "#/definitions/Queue"
             }
           },
           "default": {
