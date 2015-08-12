@@ -108,9 +108,14 @@
             "in": "body",
             "description": "queue name",
             "required": true,
-            "schema": {
-              "$ref": "#/definitions/NewQueue"
-            }
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "in": "body",
+            "description": "queue description",
+            "required": true,
+            "type": "string"
           }
         ],
         "responses": {
